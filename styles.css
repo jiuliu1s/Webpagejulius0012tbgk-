@@ -1,0 +1,100 @@
+
+#register-form{
+	background: linear-gradient(to right,red,blue,green);
+	
+	border:2px solid blue;
+	display:flex;
+	flex-direction: column;
+	min-width:25em;
+	height: 70dvh;
+border-radius: 2.3em;
+
+}
+
+#cont{
+	display: flex;
+	border: 3px solid brown;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100dvh;
+	background-color: black;
+}
+input{
+
+margin:3%;
+height:2.5em;
+text-align: center;
+border-radius: 1.5em;
+border-color: blue;
+background-color:transparent;
+}
+#hreg{
+text-align: center;
+}
+#username{
+	margin-top: 10%;
+
+
+}
+input,input::placeholder,#submit,#hreg,:focus{
+	font-family: verdana;
+	font-size: 1.5em;
+	color:orange;
+}
+#submit{
+	background-color: yellowgreen;
+	color: black;
+}
+
+#wrap1{
+	border:3px solid darkblue;
+	height:90dvh;
+	width:30%;
+
+}
+
+li{
+text-decoration: none;
+font-size: 1.2em;
+cursor: pointer;
+}
+#frames{
+	border:4px solid brown;
+	display: flex;
+	min-height:100dvh;
+	scroll-behavior: auto;
+
+}
+#disp{
+	flex:1;
+	height:100%;
+	width: 100%;
+
+}
+#wrap2{
+width:100%;
+height:100dvh;
+display:flex;
+}
+#yel{
+width:8em;
+height:90%;
+background-color: yellow;
+
+
+}
+#bl{
+	height: 90%;
+	flex:1;
+}
+#login-div{
+	background:linear-gradient(to right ,salmon,red,green);
+}
+ul{
+	list-style-type: none;
+}
+#loginbdy{
+	background-color:black;
+margin-top: 10%;
+}
